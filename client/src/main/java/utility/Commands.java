@@ -1,5 +1,6 @@
 package utility;
 
+import annotations.NotNull;
 import collection.VehicleType;
 
 import java.io.BufferedReader;
@@ -32,7 +33,7 @@ public class Commands {
     }
 
 
-    public static boolean isAValidCommand(String usersString) {
+    public static boolean isAValidCommand(@NotNull String usersString) {
         String[] words = usersString.trim().toLowerCase().split(" ");
         String validatedString = words[0];
         for (String command : Commands.getAllCommands()) {
@@ -51,7 +52,7 @@ public class Commands {
     }
 
 
-    public static boolean isCommandHaveValidArgument(String command, String argument) {
+    public static boolean isCommandHaveValidArgument(@NotNull String command,@NotNull String argument) {
         if (Commands.getCommandsWithNumberArgument().contains(command)) {
             try {
                 Integer.parseInt(argument);
