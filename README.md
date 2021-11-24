@@ -1,6 +1,6 @@
 # Vehicle manager
 Console application with client-server architecture for real-time management 
-of vehicle collection. Management means that users can create new vehicles, delete them, alter,
+of vehicle collection. Users can create new vehicles, delete them, alter,
 watch other user's vehicles, sort it many different ways, execute scripts and so much more. 
 You can use __help__ command to see the list
 of all commands.
