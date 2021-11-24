@@ -18,3 +18,6 @@ __git clone https://github.com/bonchEquipment/vehicle-manager.git__
 * Branch with Google Firebase
 * Make jars executable
 * More tests
+
+## License 
+Vehicle manager is GNU licensed. 
