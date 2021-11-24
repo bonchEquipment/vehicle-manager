@@ -8,10 +8,10 @@ of all commands.
 ## Instalation
 
 In order to work with the project you need:
-1) clone project using 
+1) Clone project using 
 __git clone https://github.com/bonchEquipment/vehicle-manager.git__
-2) build both server and client using Maven (command __mvn package__)
-3) extract executable jar files from __/target__ directory
+2) Build both server and client using Maven (command __mvn package__)
+3) Extract executable jar files from __/target__ directory
 
 ## TODO
 * Hibernate ORM
