@@ -13,7 +13,7 @@ __git clone https://github.com/bonchEquipment/vehicle-manager.git__
 2) Build both server and client using Maven (command __mvn package__)
 3) Extract executable jar files from __/target__ directory
 
-## TODO
+## Features
 * Hibernate ORM
 * Branch with Google Firebase
 * Make jars executable
